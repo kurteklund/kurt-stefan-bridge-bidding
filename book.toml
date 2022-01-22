@@ -1,0 +1,13 @@
+[book]
+authors = ["kurteklund"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Kurt-Roger"
+
+[output.html]
+additional-css = ["bridge.css"]
+
+[preprocessor.example]
+command = "node /home/kurt/js/typescript/mdbook-bridge-preprocessor/mdbook-bridge-preprocessor.js"
+renderer = ["html"] 
