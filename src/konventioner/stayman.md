@@ -16,4 +16,4 @@ Högfärgsfråga gör vi i följande tillfällen men minst en 4-korts högfärg.
 **2!s**, 4-5!s, förnekar 4-korts !h\
 
 [^styrka_1nt_2k] 'Spela Bridge 2' Kapitel 3, För **1NT - 2!c** krävs 9+hp/htp, vi har inte det kravet på styrka.\
-[^2k-endakrav] 'Spela Bridge 1' Kapitel 10, besrkiver **2!k** enda krav
+[^2k-endakrav] 'Spela Bridge 1' Kapitel 10, beskriver **2!k** enda krav
