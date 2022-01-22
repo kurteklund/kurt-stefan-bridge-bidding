@@ -5,6 +5,9 @@ multilingual = false
 src = "src"
 title = "Kurt-Roger"
 
+[build]
+build-dir = "docs" 
+
 [output.html]
 additional-css = ["bridge.css"]
 
