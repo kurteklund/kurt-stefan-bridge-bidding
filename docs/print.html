@@ -83,7 +83,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="oppningsbud.html"><strong aria-hidden="true">1.</strong> Öppningsbud</a></li><li class="chapter-item expanded "><a href="konventioner.html"><strong aria-hidden="true">2.</strong> Konventioner</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="konventioner/stayman.html"><strong aria-hidden="true">2.1.</strong> Staymans</a></li><li class="chapter-item expanded "><a href="konventioner/transfers.html"><strong aria-hidden="true">2.2.</strong> Överföringar</a></li><li class="chapter-item expanded "><a href="konventioner/stenbergs.html"><strong aria-hidden="true">2.3.</strong> Stenbergs 2NT</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="oppningsbud.html"><strong aria-hidden="true">1.</strong> Öppningsbud</a></li><li class="chapter-item expanded "><a href="svar-pa-en-i-farg.html"><strong aria-hidden="true">2.</strong> Svar på 1 i färg</a></li><li class="chapter-item expanded "><a href="konventioner.html"><strong aria-hidden="true">3.</strong> Konventioner</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="konventioner/stayman.html"><strong aria-hidden="true">3.1.</strong> Staymans</a></li><li class="chapter-item expanded "><a href="konventioner/transfers.html"><strong aria-hidden="true">3.2.</strong> Överföringar</a></li><li class="chapter-item expanded "><a href="konventioner/stenbergs.html"><strong aria-hidden="true">3.3.</strong> Stenbergs 2NT</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -164,6 +164,25 @@
 <p><strong>6-12hp</strong> Och en 6-korts <span class="suit-d">♦</span>/<span class="suit-h">♥</span>/<span class="suit-s">♠</span> så kan man öppna med 2 i färg.</p>
 <p><strong>6-12hp</strong> Och en 7-korts färg så kan man öppna med 3 i färg.</p>
 <p><strong>6-12hp</strong> Och en 8-korts färg så kan man öppna med 4 i färg.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="svar-på-1-i-färg"><a class="header" href="#svar-på-1-i-färg">Svar på 1 i färg</a></h1>
+<h2 id="svar-på-1-och-1-med-trumf-stöd"><a class="header" href="#svar-på-1-och-1-med-trumf-stöd">Svar på 1<span class="suit-h">♥</span> och 1<span class="suit-s">♠</span> med trumf stöd</a></h2>
+<p>Svaret <strong>2<span class="suit-h">♥</span></strong> kan bara vara 3-korts, i störd budgivning eller om man har en 2-korts sidofärg.<br />
+Svaren <strong>3<span class="suit-h">♥</span>/4<span class="suit-h">♥</span></strong> är minst 4-korts stöd.</p>
+<p><strong>pass</strong> ⇒ 0 - 5 htp<br />
+<strong>2<span class="suit-h">♥</span></strong> ⇒ 6 - 9 htp<br />
+<strong>3<span class="suit-h">♥</span></strong> ⇒ 10 - 12 htp<br />
+<strong>4<span class="suit-h">♥</span></strong> ⇒ Svitad hand, minst 4-korts stöd och minst 10-kort i två färger<br />
+<strong>2NT</strong> ⇒ Utgångskrävand <a href="./konventioner/stenbergs.html">Stenbergs 2NT</a></p>
+<h2 id="svar-på-1-och-1-med-minst-4-korts-stöd-utan-4-korts-"><a class="header" href="#svar-på-1-och-1-med-minst-4-korts-stöd-utan-4-korts-">Svar på 1<span class="suit-c">♣</span> och 1<span class="suit-d">♦</span> med minst 4-korts stöd utan 4-korts <span class="suit-h">♥</span>/<span class="suit-s">♠</span></a></h2>
+<p>Har man en 4-korts högfärg och 6+hp bjuder man den på 1-läget.</p>
+<p><strong>pass</strong> ⇒ 0 - 5 htp<br />
+<strong>2<span class="suit-c">♣</span></strong> ⇒ 6 - 9 htp<br />
+<strong>3<span class="suit-c">♣</span></strong> ⇒ 10 - 12 htp<br />
+<strong>3NT/4<span class="suit-c">♣</span>/5<span class="suit-c">♣</span>/slam</strong> ⇒ 13+ htp</p>
+<h2 id="svar-utan-trumstöd"><a class="header" href="#svar-utan-trumstöd">Svar utan trumstöd</a></h2>
+<p><strong>1-över-1</strong> lovar 6+hp, minst 4-korts färg, rondkrav ty obegränsad uppåt.</p>
+<p><strong>1NT</strong> lovar 6-10hp</p>
+<p><strong>2-över-1</strong> lovar 11+hp, minst 4-korts färg, rondkrav ty obegränsad uppåt.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="konventioner"><a class="header" href="#konventioner">Konventioner</a></h1>
 <p>Vi spelar med följande konventioner.</p>
 <ul>
@@ -245,6 +264,20 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
