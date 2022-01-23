@@ -6,6 +6,7 @@ Högfärgsfråga gör vi i följande tillfällen men minst en 4-korts högfärg.
 **1NT - 2!k**, Öppnaren visar 15-17 NT [^styrka_1nt_2k]\
 **2NT - 3!k**, Öppnaren visar 20-21 NT\
 **2!c - 2!r - 2NT - 3!k**, Öppnaren visar 22-24hp [^2k-endakrav]\
+**Inkliv med 1NT**, 15-17 hp, håll i öppningsfärgen\
 
 ## Svar på 1NT – 2!k
 
@@ -14,6 +15,16 @@ Högfärgsfråga gör vi i följande tillfällen men minst en 4-korts högfärg.
 **2!r**, Ingen 4 eller 5 korts högfärg\
 **2!h**, 4-5!h, eventuellt 4-korts !s\
 **2!s**, 4-5!s, förnekar 4-korts !h\
+
+## Svarshandend andra bud
+
+| Öppningshand | Svarshand |
+| ------------ | --------- |
+| **1NT**      | **2!k**   |
+| **2!r**      | **?**     |
+
+**Ny färg på 2 läget**, invit med 5-korts färg.\
+**Ny färg på 3 läget**, utgångskrav med 5-korts färg.\
 
 [^styrka_1nt_2k] 'Spela Bridge 2' Kapitel 3, För **1NT - 2!c** krävs 9+hp/htp, vi har inte det kravet på styrka.\
 [^2k-endakrav] 'Spela Bridge 1' Kapitel 10, beskriver **2!k** enda krav
