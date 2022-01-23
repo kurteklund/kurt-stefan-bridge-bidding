@@ -1,7 +1,7 @@
 # Staymans högfärgsfråga
 
 Högfärgsfråga gör vi i följande tillfällen men minst en 4-korts högfärg.\
- **OBS** med 5+ korts HF, gör vi överföring.
+ **OBS** med 5+ korts !h eller !s, gör vi överföring.
 
 **1NT - 2!k**, Öppnaren visar 15-17 NT [^styrka_1nt_2k]\
 **2NT - 3!k**, Öppnaren visar 20-21 NT\
