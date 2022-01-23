@@ -9,7 +9,7 @@ Svaren **3!h/4!h** är minst 4-korts stöd.
 **2!h** ⇒ 6 - 9 htp\
 **3!h** ⇒ 10 - 12 htp\
 **4!h** ⇒ Svitad hand, minst 4-korts stöd och minst 10-kort i två färger\
-**2NT** ⇒ Utgångskrävand [Stenbergs 2NT](./konventioner/stenbergs.md)
+**2NT** ⇒ Utgångskrävande [Stenbergs 2NT](./konventioner/stenbergs.md)
 
 ## Svar på 1!k och 1!r med minst 4-korts stöd utan 4-korts !h/!s
 
