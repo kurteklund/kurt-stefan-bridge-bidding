@@ -1,6 +1,6 @@
 # Öppningsbud
 
-I **Norisk Standard** om man skall öppna med en i färg så gäller
+I **Nordisk Standard** om man skall öppna med en i färg så gäller
 
 1. Öppna i längsta färgen
 2. Om två 5- eller 6-korts färger, öppna i den högre färgen.
