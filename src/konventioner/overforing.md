@@ -42,7 +42,7 @@ Vi överför till högfärg med 2!r eller 2!h med alla 5- eller 6-korts färger.
 **3!s** ⇒ Invit med 6-korts !s\
 **3NT** ⇒ 5-korts !s med jämn hand\
 **4!k/4!r** ⇒ Kontrollbud och slamintresse i !s\
-**4!h** ⇒ 5+!s och 5+!h, Öppnaren passar eller bjuder 4!s med 3-korts !s\
+**4!h** ⇒ 5+!s och 5+!h, Öppnaren passar eller bjuder 4!s\
 **4!s** ⇒ Slutbud med 6-korts !s\
 **4NT** ⇒ Essfråga med !s som trumf\
 
