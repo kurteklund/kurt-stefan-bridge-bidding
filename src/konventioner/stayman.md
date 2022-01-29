@@ -3,9 +3,9 @@
 Högfärgsfråga gör vi i följande tillfällen men minst en 4-korts högfärg.\
  **OBS** med 5+ korts !h eller !s, gör vi överföring.
 
-**1NT - 2!k**, Öppnaren visar 15-17 NT [^styrka_1nt_2k]\
+**1NT - 2!k**, Öppnaren visar 15-17 NT\
 **2NT - 3!k**, Öppnaren visar 20-21 NT\
-**2!c - 2!r - 2NT - 3!k**, Öppnaren visar 22-24hp [^2k-endakrav]\
+**2!c - 2!r - 2NT - 3!k**, Öppnaren visar 22-24hp\
 **Inkliv med 1NT**, 15-17 hp, håll i öppningsfärgen\
 
 ## Svar på 1NT – 2!k
@@ -26,5 +26,7 @@ Högfärgsfråga gör vi i följande tillfällen men minst en 4-korts högfärg.
 **Ny färg på 2 läget**, invit med 5-korts färg.\
 **Ny färg på 3 läget**, utgångskrav med 5-korts färg.\
 
-[^styrka_1nt_2k] 'Spela Bridge 2' Kapitel 3, För **1NT - 2!c** krävs 9+hp/htp, vi har inte det kravet på styrka.\
-[^2k-endakrav] 'Spela Bridge 1' Kapitel 10, beskriver **2!k** enda krav
+### För mera info se
+
+- 'Spela Bridge 1' Kapitel 10, beskriver **2!k** enda krav
+- 'Spela Bridge 2' Kapitel 3, Repitition av budgivning efter 1NT
