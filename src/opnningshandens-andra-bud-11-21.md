@@ -20,10 +20,10 @@ Ny färg på 1 nivå lovar minst 4-4 i bjudna färger. Annars lovar det minst 5-
 **12-14** ⇒ Bjud NT utan hopp\
 **15-17** ⇒ Du skulle ha öppnat med **1NT!**\
 **18-19** ⇒ Bjud NT med hopp\
-**20-21** ⇒ Du skulle ha öppnat med **2NT!**\
+**20-21** ⇒ Du skulle ha öppnat med **2NT!**
 
 ## Egen långfärg
 
 **12-15** ⇒ Bjud om billigast möjligt\
 **16-18** ⇒ Bjud om hoppa 1 steg\
-**19-21** ⇒ Bjud om hoppa 2 steg\
+**19-21** ⇒ Bjud om hoppa 2 steg
