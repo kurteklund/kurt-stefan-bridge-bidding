@@ -1,6 +1,6 @@
 # Stenbergs 2NT
 
-**1!h/1!s - 2NT**, Stenbergs, 4-korts stöd och utgångs krav.
+**1!h/1!s - 2NT**, Stenbergs, 4-korts stöd och utgångskrav.
 
 ## Fortsatt budgivning
 
