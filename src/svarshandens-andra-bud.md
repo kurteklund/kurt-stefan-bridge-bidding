@@ -16,4 +16,4 @@
 ### För mera info se
 
 - 'Spela Bridge 1' Kapitel 7, Svararens andra bud
-- 'Spela Bridge 2' Kapitel 8, Repitition av svararens andra bud
+- 'Spela Bridge 2' Kapitel 6, Repitition av svararens andra bud
