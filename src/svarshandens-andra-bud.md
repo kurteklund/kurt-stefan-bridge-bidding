@@ -1,5 +1,12 @@
 # Svarshandens andra bud
 
+## Om öppnaren visat en begränsad hand
+
+Öpnarens andra bud **1NT** visar **12-14**\
+Öppnaren bjuder om sin långfärg så billigt som möjligt visar **12-15**
+
+Om ni vill spela delkontrakt kan **pass** vara ett alternativ.
+
 ## Trestegs raketen för svararen
 
 | Intervall | Möjliga bud   |
