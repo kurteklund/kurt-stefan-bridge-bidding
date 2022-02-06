@@ -7,6 +7,7 @@
   - [Efter 1-över-1 och 2-över-1](./opnningshandens-andra-bud-11-21.md)
   - [Efter svarhandens 1NT](./opnningshandens-andra-bud-1nt.md)
 - [Svarshandens andra bud](./svarshandens-andra-bud.md)
+- [Försvarsbudgivning](./forsvarsbudgivning.md)
 - [Konventioner](./konventioner.md)
   - [Staymans](./konventioner/stayman.md)
   - [Överföringar](./konventioner/overforing.md)

@@ -22,8 +22,14 @@ Har man en 4-korts högfärg och 6+hp bjuder man den på 1-läget.
 
 ## Svar utan trumstöd
 
-**1-över-1** lovar 6+hp, minst 4-korts färg, rondkrav ty obegränsad uppåt.
+**pass** ⇒ 0 - 5hp
 
-**1NT** lovar 6-10hp
+**1-över-1** ⇒ lovar 6+hp, minst 4-korts färg, rondkrav ty obegränsad uppåt.
 
-**2-över-1** lovar 11+hp, minst 4-korts färg, rondkrav ty obegränsad uppåt.
+**1NT** ⇒ lovar 6-10hp
+
+**2-över-1** ⇒ lovar 11+hp, minst 4-korts färg, rondkrav ty obegränsad uppåt.
+
+## För mera info se
+
+- 'Spela Bridge 1' Kapitel 5, Svar på öppning 1 trick i färg
