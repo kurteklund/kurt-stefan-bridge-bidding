@@ -1,6 +1,6 @@
 # Fjärde färg
 
-Detta konvention kan användas i svararens andra bud.
+Denna konvention kan användas i [svarshandens andra bud](./../svarshandens-andra-bud.md).
 
 Fjärde färg visar 10+ på 2-läget, och är utgångskrav på 3-läget.
 

@@ -10,4 +10,6 @@
 **3 i andra HÖ** ⇒ Högst en i andra HÖ\
 **3NT** ⇒ 12-14
 
-För mera info se, 'Spela Bridge 3' Kapitel 3, Trumfhöjningar med Stenbergs 2NT
+### För mera info se
+
+- 'Spela Bridge 3' Kapitel 3, Trumfhöjningar med Stenbergs 2NT
