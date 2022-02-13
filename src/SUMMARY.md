@@ -1,6 +1,7 @@
 # Summary
 
 - [Öppningsbud](./oppningsbud.md)
+  - [2-klöver enda krav](./enda-krav.md)
 - [Svar på 1 i färg](./svar-pa-en-i-farg.md)
 - [Svar på 1NT](./svar-pa-1nt.md)
 - [Öppningshandens andra bud](./opnningshandens-andra-bud.md)
