@@ -19,3 +19,4 @@
 ### För mera info se
 
 - 'Spela Bridge 1' Kapitel 8, Inkliv är bästa försvar
+- 'Spela Bridge 1' Kapitel 9, Upplysningsdubbling
