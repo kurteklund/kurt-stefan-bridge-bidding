@@ -26,8 +26,8 @@ I **Nordisk Standard** om man skall öppna med en i färg så gäller
 
 **22+hp** Öppna med 2!k enda krav
 
-**6-12hp** Och en 6-korts !r/!h/!s så kan man öppna med 2 i färg.
+**6-11hp** Och en 6-korts !r/!h/!s så kan man öppna med 2 i färg.
 
-**6-12hp** Och en 7-korts färg så kan man öppna med 3 i färg.
+**6-11hp** Och en 7-korts färg så kan man öppna med 3 i färg.
 
-**6-12hp** Och en 8-korts färg så kan man öppna med 4 i färg.
+**6-11hp** Och en 8-korts färg så kan man öppna med 4 i färg.
