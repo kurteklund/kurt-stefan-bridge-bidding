@@ -13,5 +13,6 @@
 - [Konventioner](./konventioner.md)
   - [Staymans](./konventioner/stayman.md)
   - [Överföringar](./konventioner/overforing.md)
+  - [Skrot-Stenberg](./konventioner/skrot-stenberg.md)
   - [Stenbergs 2NT](./konventioner/stenbergs.md)
   - [Fjärde färg](./konventioner/fjarde-farg.md)
