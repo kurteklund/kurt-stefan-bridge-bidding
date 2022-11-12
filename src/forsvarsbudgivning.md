@@ -8,7 +8,7 @@
 
 ## Svar på UD
 
-- **Färbud på lägsta nivå** ⇒ 0-8 hp/htp, normalt minst 4-kortsfärg
+- **Färgbud på lägsta nivå** ⇒ 0-8 hp/htp, normalt minst 4-kortsfärg
 - **Hopp till 2 i färg** ⇒ 9-12 hp/htp, minst 4-kortsfärg
 - **Hopp till 3 i färg** ⇒ 10-12 hp/htp, minst 5-kortsfärg
 - **Hopp till 4!h/4!s** ⇒ 13+ htp, minst 5-kortsfärg

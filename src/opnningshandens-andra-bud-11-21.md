@@ -15,7 +15,7 @@ Ny färg på 1 nivå lovar minst 4-4 i bjudna färger. Annars lovar det minst 5-
 **Stigande efter 1-över-1** ⇒ 17-21hp\
 **Stigande efter 2-över-1** ⇒ 15-21hp\
 
-## Jämn hand, åtebud NT
+## Jämn hand, återbud NT
 
 **12-14** ⇒ Bjud NT utan hopp\
 **15-17** ⇒ Du skulle ha öppnat med **1NT!**\

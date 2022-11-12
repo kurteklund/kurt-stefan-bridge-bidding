@@ -48,4 +48,4 @@ Vi överför till högfärg med 2!r eller 2!h med alla 5- eller 6-korts färger.
 
 ### För mera info se
 
-- 'Spela Bridge 2' Kapitel 3, Repitition av budgivning efter 1NT
+- 'Spela Bridge 2' Kapitel 3, Repetition av budgivning efter 1NT

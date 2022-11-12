@@ -4,5 +4,17 @@
       "path": "."
     }
   ],
-  "settings": {}
+  "settings": {
+    "cSpell.language": "sv,sv-SE",
+    "cSpell.words": [
+      "färgbud",
+      "färginkliv",
+      "inkliv",
+      "nödbud",
+      "slamintresse",
+      "slaminvit",
+      "staymans",
+      "trekorts"
+    ]
+  }
 }

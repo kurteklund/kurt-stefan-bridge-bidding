@@ -15,5 +15,5 @@ Svarshanden svarar alltid 2!r
 
 ### För mera info se
 
-- 'Spela Bridge 1' Kapitel 10, Starka öppningshänder - onatuliga bud
+- 'Spela Bridge 1' Kapitel 10, Starka öppningshänder - onaturliga bud
 - 'Spela Bridge 2' Kapitel 10, Mera om starka öppningshänder

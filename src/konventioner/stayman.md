@@ -16,7 +16,7 @@ Högfärgsfråga gör vi i följande tillfällen men minst en 4-korts högfärg.
 **2!h** ⇒ 4-5!h, eventuellt 4-korts !s\
 **2!s** ⇒ 4-5!s, förnekar 4-korts !h\
 
-## Svarshandend andra bud
+## Svarshandens andra bud
 
 | Öppningshand | Svarshand |
 | ------------ | --------- |
@@ -29,4 +29,4 @@ Högfärgsfråga gör vi i följande tillfällen men minst en 4-korts högfärg.
 ### För mera info se
 
 - 'Spela Bridge 1' Kapitel 10, beskriver **2!k** enda krav
-- 'Spela Bridge 2' Kapitel 3, Repitition av budgivning efter 1NT
+- 'Spela Bridge 2' Kapitel 3, Repetition av budgivning efter 1NT

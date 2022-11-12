@@ -25,5 +25,5 @@ Möjlig svar i prioritets ordning.
 
 ### För mera info se
 
-- 'Spela Bridge 2' Kapitel 8, Repitition av svararens andra bud
+- 'Spela Bridge 2' Kapitel 8, Repetition av svararens andra bud
 - 'Spela Bridge 3' Kapitel 6, Fjärde färg
