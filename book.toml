@@ -12,5 +12,5 @@ build-dir = "docs"
 additional-css = ["bridge.css"]
 
 [preprocessor.example]
-command = "node /home/kurt/js/typescript/mdbook-bridge-preprocessor/mdbook-bridge-preprocessor.js"
+command = "node /home/kurt/github/mdbook-bridge-preprocessor/mdbook-bridge-preprocessor.js"
 renderer = ["html"] 
