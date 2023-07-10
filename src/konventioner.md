@@ -6,4 +6,4 @@ Vi spelar med följande konventioner.
 - [Överföringar](./konventioner/overforing.md)
 - [Skrot-Stenbergs](./konventioner/skrot-stenberg.md)
 - [Fjärde färg](./konventioner/fjarde-farg.md)
-- [RKCB 1430](./konventioner/rkcb1430.md)
+- [RKCB 0314](./konventioner/rkcb0314.md)

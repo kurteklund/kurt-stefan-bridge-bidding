@@ -15,4 +15,4 @@
   - [Överföringar](./konventioner/overforing.md)
   - [Skrot-Stenberg](./konventioner/skrot-stenberg.md)
   - [Fjärde färg](./konventioner/fjarde-farg.md)
-  - [RKCB 1430](./konventioner/rkcb1430.md)
+  - [RKCB 0314](./konventioner/rkcb0314.md)
