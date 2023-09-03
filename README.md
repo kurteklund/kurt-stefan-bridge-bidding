@@ -1,6 +1,6 @@
-# kurt-roger-bridge-bidding
+# kurt-stefan-bridge-bidding
 
-This is a page about the bridge bidding I and my bridge parner Roger uses.
+This is a page about the bridge bidding I and my bridge partner Stefan uses.
 
 [mdbook](https://rust-lang.github.io/mdBook/) is used to generate the documentation.
 
@@ -10,4 +10,4 @@ I have made a [preprocessor](https://github.com/kurteklund/mdbook-bridge-preproc
 The doc is also written in swedish!
 So this repo have limited usage for non swedish people
 
-The resulting html/css/javascript doc can be viewed at: https://kurteklund.github.io/kurt-roger-bridge-bidding/
+The resulting html/css/javascript doc can be viewed at: <https://kurteklund.github.io/kurt-stefan-bridge-bidding/>
