@@ -14,7 +14,7 @@ I **Nordisk Standard** om man skall öppna med en i färg så gäller
 
 **18-19hp** Öppna 1 i färg. Om partnern bjuder, återbud med hoppande NT bud.
 
-**20-21hp** Öppna med **2NT**
+**20-21hp** Öppna med **2!r** [2 ruter multi](./konventioner/2-ruter-multi.md)
 
 **22-24hp** Öppna med **2!k - 2!r - 2NT**
 
@@ -26,8 +26,10 @@ I **Nordisk Standard** om man skall öppna med en i färg så gäller
 
 **22+hp** Öppna med 2!k enda krav
 
-**6-11hp** Och en 6-korts !r/!h/!s så kan man öppna med 2 i färg.
+**6-11hp** 5-korts högfärg och en 4+-korts lågfärg. Öppna med 2 i HF.
 
-**6-11hp** Och en 7-korts färg så kan man öppna med 3 i färg.
+**6-11hp** 6-korts !h/!s så kan man öppna med 2!r [2 ruter multi](./konventioner/2-ruter-multi.md)
 
-**6-11hp** Och en 8-korts färg så kan man öppna med 4 i färg.
+**6-11hp** 7-korts färg så kan man öppna med 3 i färg.
+
+**6-11hp** 8-korts färg så kan man öppna med 4 i färg.

@@ -7,14 +7,15 @@
   "settings": {
     "cSpell.language": "sv,sv-SE",
     "cSpell.words": [
-      "färgbud",
-      "färginkliv",
-      "inkliv",
-      "nödbud",
-      "slamintresse",
-      "slaminvit",
-      "staymans",
-      "trekorts"
+        "färgbud",
+        "färginkliv",
+        "inkliv",
+        "multi",
+        "nödbud",
+        "slamintresse",
+        "slaminvit",
+        "staymans",
+        "trekorts"
     ]
   }
 }
