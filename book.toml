@@ -3,7 +3,7 @@ authors = ["kurteklund"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Nordisk Standard"
+title = "Kurt/Stefan - Nordisk Standard"
 
 [build]
 build-dir = "docs" 
