@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js light">
+<html lang="en" class="light sidebar-visible" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -7,10 +7,10 @@
 
 
         <!-- Custom HTML head -->
-        
+
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff" />
+        <meta name="theme-color" content="#ffffff">
 
         <link rel="icon" href="../favicon.svg">
         <link rel="shortcut icon" href="../favicon.png">
@@ -31,15 +31,17 @@
         <!-- Custom theme stylesheets -->
         <link rel="stylesheet" href="../bridge.css">
 
-    </head>
-    <body>
-    <div id="body-container">
+
         <!-- Provide site root to javascript -->
         <script>
             var path_to_root = "../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
-
+        <!-- Start loading toc.js asap -->
+        <script src="../toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
@@ -61,65 +63,49 @@
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
-            var html = document.querySelector('html');
-            html.classList.remove('no-js')
+            const html = document.documentElement;
             html.classList.remove('light')
             html.classList.add(theme);
-            html.classList.add('js');
+            html.classList.add("js");
         </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var html = document.querySelector('html');
             var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             } else {
                 sidebar = 'hidden';
             }
+            sidebar_toggle.checked = sidebar === 'visible';
             html.classList.remove('sidebar-visible');
             html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="../oppningsbud.html"><strong aria-hidden="true">1.</strong> Öppningsbud</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../enda-krav.html"><strong aria-hidden="true">1.1.</strong> 2-klöver enda krav</a></li><li class="chapter-item expanded "><a href="../svaga-oppningbud.html"><strong aria-hidden="true">1.2.</strong> Svaga öppningsbud</a></li></ol></li><li class="chapter-item expanded "><a href="../svar-pa-en-i-farg.html"><strong aria-hidden="true">2.</strong> Svar på 1 i färg</a></li><li class="chapter-item expanded "><a href="../svar-pa-1nt.html"><strong aria-hidden="true">3.</strong> Svar på 1NT</a></li><li class="chapter-item expanded "><a href="../opnningshandens-andra-bud.html"><strong aria-hidden="true">4.</strong> Öppningshandens andra bud</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../opnningshandens-andra-bud-11-21.html"><strong aria-hidden="true">4.1.</strong> Efter 1-över-1 och 2-över-1</a></li><li class="chapter-item expanded "><a href="../opnningshandens-andra-bud-1nt.html"><strong aria-hidden="true">4.2.</strong> Efter svarhandens 1NT</a></li></ol></li><li class="chapter-item expanded "><a href="../svarshandens-andra-bud.html"><strong aria-hidden="true">5.</strong> Svarshandens andra bud</a></li><li class="chapter-item expanded "><a href="../forsvarsbudgivning.html"><strong aria-hidden="true">6.</strong> Försvarsbudgivning</a></li><li class="chapter-item expanded "><a href="../konventioner.html"><strong aria-hidden="true">7.</strong> Konventioner</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../konventioner/stayman.html"><strong aria-hidden="true">7.1.</strong> Staymans</a></li><li class="chapter-item expanded "><a href="../konventioner/overforing.html" class="active"><strong aria-hidden="true">7.2.</strong> Överföringar</a></li><li class="chapter-item expanded "><a href="../konventioner/skrot-stenberg.html"><strong aria-hidden="true">7.3.</strong> Skrot-Stenberg</a></li><li class="chapter-item expanded "><a href="../konventioner/fjarde-farg.html"><strong aria-hidden="true">7.4.</strong> Fjärde färg</a></li><li class="chapter-item expanded "><a href="../konventioner/rkcb0314.html"><strong aria-hidden="true">7.5.</strong> RKCB 0314</a></li><li class="chapter-item expanded "><a href="../konventioner/2-ruter-multi.html"><strong aria-hidden="true">7.6.</strong> 2ruter multi</a></li></ol></li></ol>
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
             </div>
-            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
-
-        <!-- Track and set sidebar scroll position -->
-        <script>
-            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
-            sidebarScrollbox.addEventListener('click', function(e) {
-                if (e.target.tagName === 'A') {
-                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
-                }
-            }, { passive: true });
-            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
-            sessionStorage.removeItem('sidebar-scroll');
-            if (sidebarScrollTop) {
-                // preserve sidebar scroll position when navigating via links within sidebar
-                sidebarScrollbox.scrollTop = sidebarScrollTop;
-            } else {
-                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
-                var activeSection = document.querySelector('#sidebar .active');
-                if (activeSection) {
-                    activeSection.scrollIntoView({ block: 'center' });
-                }
-            }
-        </script>
 
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar-hover-placeholder"></div>
                 <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
                             <i class="fa fa-bars"></i>
-                        </button>
+                        </label>
                         <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
                             <i class="fa fa-paint-brush"></i>
                         </button>
@@ -193,7 +179,7 @@
 <strong>3NT</strong> ⇒ 5-korts <span class="suit-h">♥</span> med jämn hand<br />
 <strong>4<span class="suit-c">♣</span>/4<span class="suit-d">♦</span></strong> ⇒ Kontrollbud och slamintresse i <span class="suit-h">♥</span><br />
 <strong>4<span class="suit-h">♥</span></strong> ⇒ Slutbud med 6-korts <span class="suit-h">♥</span><br />
-<strong>4NT</strong> ⇒ Essfråga med <span class="suit-h">♥</span> som trumf</p>
+<strong>4NT</strong> ⇒ Essfråga med <span class="suit-h">♥</span> som trumf\</p>
 <div class="table-wrapper"><table><thead><tr><th>Öppnaren</th><th>Svararen</th></tr></thead><tbody>
 <tr><td><strong>1NT</strong></td><td><strong>2<span class="suit-h">♥</span></strong></td></tr>
 <tr><td><strong>2<span class="suit-s">♠</span></strong></td><td><strong>?</strong></td></tr>
@@ -208,7 +194,7 @@
 <strong>4<span class="suit-c">♣</span>/4<span class="suit-d">♦</span></strong> ⇒ Kontrollbud och slamintresse i <span class="suit-s">♠</span><br />
 <strong>4<span class="suit-h">♥</span></strong> ⇒ 5+<span class="suit-s">♠</span> och 5+<span class="suit-h">♥</span>, Öppnaren passar eller bjuder 4<span class="suit-s">♠</span><br />
 <strong>4<span class="suit-s">♠</span></strong> ⇒ Slutbud med 6-korts <span class="suit-s">♠</span><br />
-<strong>4NT</strong> ⇒ Essfråga med <span class="suit-s">♠</span> som trumf</p>
+<strong>4NT</strong> ⇒ Essfråga med <span class="suit-s">♠</span> som trumf\</p>
 <h3 id="för-mera-info-se"><a class="header" href="#för-mera-info-se">För mera info se</a></h3>
 <ul>
 <li>'Spela Bridge 2' Kapitel 3, Repetition av budgivning efter 1NT</li>
@@ -222,7 +208,7 @@
                                 <i class="fa fa-angle-left"></i>
                             </a>
 
-                            <a rel="next" href="../konventioner/skrot-stenberg.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="../konventioner/skrot-stenberg.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
 
@@ -236,7 +222,7 @@
                         <i class="fa fa-angle-left"></i>
                     </a>
 
-                    <a rel="next" href="../konventioner/skrot-stenberg.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="../konventioner/skrot-stenberg.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
             </nav>
